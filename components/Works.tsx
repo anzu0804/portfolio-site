@@ -50,7 +50,7 @@ export default function Works() {
 
 <Link
   href="/works/portfolio-site"
-  className="block bg-white hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer"
+  className="block bg-white border border-[#E8DED4] rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer"
 >
    <div className="relative h-64">
             <Image
@@ -71,7 +71,19 @@ export default function Works() {
 </Link>
 
         <div className="bg-white">
-          <div className="h-64 bg-gray-200"></div>
+          
+<div className="h-64 bg-[#F0E5D8] flex flex-col items-center justify-center gap-3">
+  <span className="text-4xl text-[#9A7654]" aria-hidden="true">
+    ✦
+  </span>
+  <p className="text-sm tracking-widest text-[#7A5A3A]">
+    IN DEVELOPMENT
+  </p>
+  <p className="text-xs text-[#7A5A3A]">
+    制作画像は準備中
+  </p>
+</div>
+
 
           <div className="p-6">
             <p className="text-xs text-[#7A5A3A] mb-2">
@@ -82,29 +94,18 @@ export default function Works() {
               シフト作成システム
             </h3>
 
-            <p className="text-gray-600">
-              看護師向けシフト作成システムの
-              UIデザイン。
-            </p>
-          </div>
-        </div>
 
-        <div className="bg-white">
-          <div className="h-64 bg-gray-200"></div>
+<span className="inline-block mb-4 rounded-full bg-[#F0E5D8] px-3 py-1 text-xs font-medium text-[#7A5A3A]">
+  開発中
+</span>
 
-          <div className="p-6">
-            <p className="text-xs text-[#7A5A3A] mb-2">
-              SNSデザイン
-            </p>
+            
+<p className="text-gray-600 leading-7">
+  病棟の勤務表作成を効率化するためのWebアプリ。<br></br>
+  スタッフ管理や勤務条件の設定などを備えた
+  シフト自動作成システムを開発中です。
+</p>
 
-            <h3 className="text-2xl mb-4">
-              自己紹介バナー
-            </h3>
-
-            <p className="text-gray-600">
-              ポートフォリオ・SNS用の
-              自己紹介バナー。
-            </p>
           </div>
         </div>
 
