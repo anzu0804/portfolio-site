@@ -15,10 +15,11 @@ export default function Header() {
 
         <a href="#">
   
-<h1 className="text-3xl md:text-5xl font-serif text-[#A67C52]">
 
-    ANZU
-  </h1>
+<span className="block text-3xl md:text-5xl font-serif text-[#A67C52]">
+  ANZU
+</span>
+
 </a>
 
 

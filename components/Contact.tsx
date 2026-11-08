@@ -50,7 +50,7 @@ async function handleSubmit(
       <div className="grid md:grid-cols-2 gap-20">
 
         <div>
-          <p className="text-[#C8B299] tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#7A5A3A] tracking-[0.3em] text-sm mb-4">
             CONTACT
           </p>
 
@@ -67,7 +67,7 @@ async function handleSubmit(
 
           <div className="mt-12 space-y-4">
             <div className="flex gap-8 border-b pb-4">
-              <span className="text-[#C8B299]">
+              <span className="text-[#7A5A3A]">
                 対応エリア
               </span>
               <span>
@@ -76,7 +76,7 @@ async function handleSubmit(
             </div>
 
             <div className="flex gap-8 border-b pb-4">
-              <span className="text-[#C8B299]">
+              <span className="text-[#7A5A3A]">
                 稼働状況
               </span>
               <span>
@@ -104,9 +104,9 @@ async function handleSubmit(
     id="name"
     name="name"
     type="text"
-    required
-    className="w-full border-b p-3 outline-none"
-  />
+    required   
+className="w-full border-b p-3 outline-none focus-visible:ring-2 focus-visible:ring-[#9B7957] focus-visible:ring-offset-2"
+/>
 </div>
 
           
@@ -120,8 +120,8 @@ async function handleSubmit(
     type="email"
     autoComplete="email"
     required
-    className="w-full border-b p-3 outline-none"
-  />
+    className="w-full border-b p-3 outline-none resize-none focus-visible:ring-2 focus-visible:ring-[#9B7957] focus-visible:ring-offset-2"
+/>
 </div>
 
 
@@ -136,8 +136,8 @@ async function handleSubmit(
     rows={5}
     required
     minLength={10}
-    className="w-full border-b p-3 outline-none resize-none"
-  />
+    className="w-full border-b p-3 outline-none resize-none focus-visible:ring-2 focus-visible:ring-[#9B7957] focus-visible:ring-offset-2"
+/>
 </div>
 
 

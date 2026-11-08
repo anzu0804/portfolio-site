@@ -7,9 +7,9 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-24">
 
         <div>
-          <h2 className="text-5xl text-[#9A7654] tracking-widest mb-8">
+          <p className="text-5xl text-[#9A7654] tracking-widest mb-8">
             ANZU
-          </h2>
+          </p>
 
           <div className="border border-[#E6D8CC] w-fit px-10 py-6 mb-16">
             <p className="tracking-[0.2em]">
@@ -23,13 +23,13 @@ export default function About() {
             </p>
           </div>
 
-          <p className="text-[#C8B299] tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#7A5A3A] tracking-[0.3em] text-sm mb-4">
             ABOUT
           </p>
 
-          <h3 className="text-6xl mb-10">
+          <h2 className="text-6xl mb-10">
             わたしについて
-          </h3>
+          </h2>
 
           <p className="text-gray-600 leading-10">
             フリーランスのインフラエンジニアとして働きながら、
@@ -52,7 +52,7 @@ export default function About() {
 
           <div className="space-y-8 text-gray-600">
             <p>2022　インフラエンジニアとしてIT業界へ従事</p>
-            <p>202　SHElikesにてWebデザイン学習開始</p>
+            <p>2026　SHElikesにてWebデザイン学習開始</p>
             <p>2026　ポートフォリオ制作および自主制作を開始</p>
           </div>
 

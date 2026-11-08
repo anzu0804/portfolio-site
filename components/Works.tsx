@@ -7,9 +7,11 @@ export default function Works() {
       id="works"
       className="max-w-7xl mx-auto px-16 py-32"
     >
-      <p className="text-[#C8B299] tracking-[0.3em] text-sm mb-4">
-        WORKS
-      </p>
+      
+<p className="text-[#7A5A3A] tracking-[0.3em] text-sm mb-4">
+  WORKS
+</p>
+
 
       <h2 className="text-6xl mb-16">
         制作実績
@@ -31,7 +33,7 @@ export default function Works() {
 </div>
 
           <div className="p-6">
-            <p className="text-xs text-[#C8B299] mb-2">
+            <p className="text-xs text-[#7A5A3A] mb-2">
               バナーデザイン
             </p>
 
@@ -53,14 +55,14 @@ export default function Works() {
    <div className="relative h-64">
             <Image
             src="/images/portforio.jpg"
-            alt="っポートフォリオサイト"
+            alt="ANZU Portfolioのサイトデザイン"
             fill
             className="object-cover"
           />
 </div>
 
   <div className="p-6">
-    <p className="text-xs text-[#C8B299] mb-2">Webサイト制作</p>
+    <p className="text-xs text-[#7A5A3A] mb-2">Webサイト制作</p>
     <h3 className="text-2xl mb-4">ポートフォリオサイト</h3>
     <p className="text-gray-600">
       Next.jsで制作した自身のポートフォリオサイト。
@@ -72,7 +74,7 @@ export default function Works() {
           <div className="h-64 bg-gray-200"></div>
 
           <div className="p-6">
-            <p className="text-xs text-[#C8B299] mb-2">
+            <p className="text-xs text-[#7A5A3A] mb-2">
               UIデザイン
             </p>
 
@@ -91,7 +93,7 @@ export default function Works() {
           <div className="h-64 bg-gray-200"></div>
 
           <div className="p-6">
-            <p className="text-xs text-[#C8B299] mb-2">
+            <p className="text-xs text-[#7A5A3A] mb-2">
               SNSデザイン
             </p>
 

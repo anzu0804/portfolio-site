@@ -8,7 +8,7 @@ export default function PortfolioSitePage() {
           ← TOPへ戻る
         </Link>
 
-        <p className="text-[#C8B299] tracking-[0.3em] text-sm mt-16 mb-4">
+        <p className="text-[#7A5A3A] tracking-[0.3em] text-sm mt-16 mb-4">
           WORKS
         </p>
 
